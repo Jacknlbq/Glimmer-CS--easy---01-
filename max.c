@@ -12,9 +12,9 @@ int main()
     }
     while(a%b!=0)
     {
-         c=b;
-         b=a%b;
+         c=a%b;
          a=b;
+         b=c;
     }
     printf("%d\n",b);
 }  
